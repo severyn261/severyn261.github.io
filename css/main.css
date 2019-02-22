@@ -57,7 +57,7 @@ transition:1.4s;
 border-right: 2px solid #fefefe;
 }
 #categories a:hover{
-background: #CB1E1E;
+background: yellow;
 color: white;
 -webkit-transition: 0.4s;
 -moz-transition: 0.4s;
@@ -156,15 +156,16 @@ flex-direction: column;
 align-self: center;
 align-items: center;
 justify-content: center;
-border: 1px solid #CB1E1E;
+border: 1px solid yellow;
 margin: 20px;
 height: 110px;
 background: unset;
 /*width: 110px;*/
 flex: 1;
+color:white;
 }
 .show-menu:hover{
-background-color: #CB1E1E;
+background-color: yellow;
 color: white;
 -webkit-transition: 0.4s;
 -moz-transition: 0.4s;
@@ -196,7 +197,7 @@ padding-bottom: 7px;
 margin: 20px 0 5px 0;
 }
 .textnav{
-border-bottom: 3px solid #CB1E1E;
+border-bottom: 3px solid yellow;
 padding-bottom: 10px;
 }
 .navbottom ul{
@@ -216,7 +217,7 @@ color: white;
 padding: 5px;
 }
 .navbottom a:hover{
-background: #CB1E1E;
+background: yellow;
 color: white;
 -webkit-transition: 0.4s;
 -moz-transition: 0.4s;
@@ -228,7 +229,7 @@ transition: 0.4s;
 color: white;
 }
 input.search_mobile{
-border: 1px solid #CB1E1E;
+border: 1px solid yellow;
 background: none;/*
 width: 350px;*/
 padding:6px;
@@ -331,7 +332,7 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
-border-bottom: 3px solid #CB1E1E;
+border-bottom: 3px solid yellow;
 margin: auto;
 color: black;
 padding: 5px;
@@ -353,9 +354,7 @@ align-items: center;
 align-content: center;
 }
 .imagefilm{
-background-size: cover;
 background-color: #7A89C2;
-background-image: url('images/film1.png');
 height: 140px;
 width: 250px;
 margin-top: 20px;
@@ -453,7 +452,7 @@ overflow: hidden;
 border:0;
 }
 .sl__text:hover{
-color:#CB1E1E;
+color:yellow;
 -webkit-transition: 0.4s;
 -moz-transition: 0.4s;
 -ms-transition: 0.4s;
@@ -515,7 +514,7 @@ white-space: nowrap;
 flex: 1;
 }
 .underlineStyle{
-border-bottom: 3px solid #CB1E1E;
+border-bottom: 3px solid yellow;
 padding: 5px;
 }
 .bottomadd{
@@ -527,7 +526,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-background-color: #CB1E1E;
+background-color: yellow;
 margin-left:30px;
 font-size: 1.2em;
 color: black;
@@ -584,7 +583,7 @@ font-weight: bold;
 padding-bottom: 10px;
 }
 .title:hover{
-color: #CB1E1E;
+color: yellow;
 -webkit-transition: 0.4s;
 -moz-transition: 0.4s;
 -ms-transition: 0.4s;
@@ -618,7 +617,7 @@ background: url(images/film1.png);
 background-size: cover;
 width: auto;
 height: 130px;
-border-bottom: 3px solid #CB1E1E;
+border-bottom: 3px solid yellow;
 margin-bottom: 5px;
 }
 .BCtitle{
@@ -702,7 +701,7 @@ display: -ms-flex;
 display: -o-flex;
 display: flex;
 flex-direction: row;
-border: 1px solid #CB1E1E;
+border: 1px solid yellow;
 }
 .footercontent li{
 padding: 10px;
