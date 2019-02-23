@@ -9,22 +9,27 @@
     prevArrow: '<div class="prevBut"><i class="fas fa-chevron-left fa-2x"></i></div>',
   	appendArrows:$('.arrowsSlick#firstBut'),
   	 responsive: [
- {
-      breakpoint: 768,
+    {
+      breakpoint: 1024,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
       }
     },
     {
-      breakpoint: 479,
+      breakpoint: 600,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 2
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     }
   ]
@@ -40,22 +45,27 @@
     prevArrow: '<div class="prevBut"><i class="fas fa-chevron-left fa-2x"></i></div>',
     appendArrows:$('.arrowsSlick#secondBut'),
     responsive: [
- {
-      breakpoint: 768,
+    {
+      breakpoint: 1024,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 2
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
       }
     },
     {
-      breakpoint: 479,
+      breakpoint: 600,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 1
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     }
   ]
@@ -71,22 +81,27 @@
     prevArrow: '<div class="prevBut"><i class="fas fa-chevron-left fa-2x"></i></div>',
     appendArrows:$('.arrowsSlick#thirdBut'),
     responsive: [
- {
-      breakpoint: 768,
+    {
+      breakpoint: 1024,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 2
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
       }
     },
     {
-      breakpoint: 479,
+      breakpoint: 600,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 1
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     }
   ]
@@ -102,22 +117,27 @@
     prevArrow: '<div class="prevBut"><i class="fas fa-chevron-left fa-2x"></i></div>',
     appendArrows:$('.arrowsSlick#fourthBut'),
     responsive: [
- {
-      breakpoint: 768,
+    {
+      breakpoint: 1024,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 2
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
       }
     },
     {
-      breakpoint: 479,
+      breakpoint: 600,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 1
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     }
   ]
@@ -133,26 +153,31 @@
     prevArrow: '<div class="prevBut"><i class="fas fa-chevron-left fa-2x"></i></div>',
     appendArrows:$('.arrowsSlick#fifth'),
     responsive: [
- {
-      breakpoint: 768,
+    {
+      breakpoint: 1024,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 2
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
       }
     },
     {
-      breakpoint: 479,
+      breakpoint: 600,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 1
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     }
   ]
-  });  
+  });
 
 
 if ($(window).width() < 769) {
