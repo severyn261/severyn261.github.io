@@ -3,6 +3,8 @@ padding: 0;
 margin: 0;
 font-family:  RobotoC, sans-serif;
 text-decoration: none;
+border: 1px;
+border-color: red;
 }
 *:focus{
 border:none !important;
