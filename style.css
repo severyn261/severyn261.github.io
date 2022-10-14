@@ -1,0 +1,95 @@
+* {
+    margin: 5px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5fbf9;
+}
+
+.header{
+    background-color: #99d4c0;
+    border-radius: 2em;
+    padding: 1em;
+    width: 20em;
+}
+
+.week_type  {
+    border-radius: 2em;
+    padding: 1em;
+    background-color: #d6eee6;
+    width: 20em;
+}
+.week_type:active  {
+    background-color: #7aaa9a;
+}
+
+.content {
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-self: start;
+    background-color: #ffffff;
+    border-radius: 4em;
+    padding: 2em;
+}
+
+.block0 {
+    flex-grow: 2;
+    flex-shrink: 0;
+    background-color: inherit;
+
+}
+
+.block1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: start;
+    background-color: inherit;
+}
+
+.day {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: rgb(49, 204, 157);
+    width: 10em;
+}
+
+.para {
+    padding: 1em;
+    background-color: #104754;
+    color: white;
+    border-radius: 1em;
+}
+
+.time {
+    padding: 1em;
+    background-color: #104754;
+    color: white;
+    border-radius: 1em;
+    width: 6em;
+}
+
+.event {
+    padding: 1em;
+    background-color: inherit;
+}
+
+.join  {
+    padding: 1em;
+    background-color: green;
+    color: white;
+    border-radius: 1em;
+}
+
+.join:active {
+    background-color: darkgreen;
+}
+
+.a{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    background-color: inherit;
+}
