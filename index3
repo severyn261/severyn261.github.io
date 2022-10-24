@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>СЕВЕРИН</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="header">Розклад занять: лекційний</div>
+<div class="week_type">
+    <div class="button"><a class="a" href="./index4.html">Перейти: "Розклад занять: практичний"</a></div>
+    <div class="button"><a class="a" href="./index.html">Перейти: "Розклад ВАЛІ"</a></div>
+</div>
+<div class="content">
+    <div class="block0">
+        <div class="day">Вівторок</div>
+    </div>
+    <div class="block1">
+        <div class="para">2</div>
+        <div class="time">11:20-12:40</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Захист прав особи у кримінальному судочинстві   проф. Федоров М.П.</div>
+    </div>
+    <div class="block1">
+        <div class="para">3</div>
+        <div class="time">13:10-14:30</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Методика розслідування кримінальних правопорушень у сфері господарської діяльності   проф. Федоров М.П.</div>
+    </div>
+
+    <div class="block0">
+        <div class="day">Середа</div>
+    </div>
+    <div class="block1">
+        <div class="para">1</div>
+        <div class="time">9:30-10:50</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Захист особи в Європейському Суді з прав людини   доц. Горецька Х.В.</div>
+    </div>
+    <div class="block1">
+        <div class="para">2</div>
+        <div class="time">11:20-12:40</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Захист особи в Європейському Суді з прав людини   доц. Горецька Х.В.</div>
+    </div>
+    <div class="block1">
+        <div class="para">3</div>
+        <div class="time">13:10-14:30</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Проблеми відповідальності у сфері господарювання   доц. Оверко Г.Я.</div>
+    </div>
+    <div class="block1">
+        <div class="para">4</div>
+        <div class="time">14:40-16:00</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Проблеми відповідальності у сфері господарювання   доц. Оверко Г.Я.</div>
+    </div>
+
+    <div class="block0">
+        <div class="day">Четвер</div>
+    </div>
+    <div class="block1">
+        <div class="para">3</div>
+        <div class="time">13:10-14:30</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Методика розслідування кримінальних правопорушень у сфері господарської діяльності   проф. Федоров М.П.</div>
+    </div>
+    <div class="block1">
+        <div class="para">4</div>
+        <div class="time">14:40-16:00</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Захист прав особи у кримінальному судочинстві   проф. Федоров М.П.</div>
+    </div>
+    
+    <div class="block0">
+        <div class="day">Пʼятниця</div>
+    </div>
+    <div class="block1">
+        <div class="para">3</div>
+        <div class="time">13:10-14:30</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Методика викладання   проф. Медвідь Л.Г.</div>
+    </div>
+    <div class="block1">
+        <div class="para">4</div>
+        <div class="time">14:40-16:00</div>
+        <div class="join"><a href="" class="a">Join</a></div>
+        <div class="event">Методика викладання   проф. Медвідь Л.Г.</div>
+    </div>
+
+</div>
+<div class="footer"></div>
+
+</body>
+</html>
