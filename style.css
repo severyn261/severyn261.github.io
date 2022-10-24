@@ -16,12 +16,17 @@
 }
 
 .week_type  {
+    background-color: inherit;
+    flex-direction: row;
+}
+
+.button  {
     border-radius: 2em;
     padding: 1em;
     background-color: #d6eee6;
     width: 20em;
 }
-.week_type:active  {
+.button:active  {
     background-color: #7aaa9a;
 }
 
